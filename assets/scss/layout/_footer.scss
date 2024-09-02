@@ -1,0 +1,76 @@
+.footer{
+  padding-top: 48px;
+  padding-bottom: 32px;
+
+  &-header {
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+  }
+
+  &-menu {
+    margin-bottom: 26px;
+    &-item{
+      a {
+          padding: 12px 32px;
+      }
+    }
+    @include mobile {
+      display: none;
+    }
+  }
+
+  &-contact {
+    img {
+      margin-right: 20px;
+      @include mobile {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+      }
+    }
+    a {
+      @include mobile {
+        font-size: 16px;
+      }
+    }
+  }
+
+  &-social {
+    img {
+      width: 48px;
+      height: 48px;
+      @include mobile-larger {
+        width: 40px;
+        height: 40px;
+      }
+      @include mobile {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    a {
+      padding: 0 16px;
+      @include pad {
+        padding: 0 8px;
+      }
+    }
+  }
+
+  &-copyright {
+    a {
+      padding: 0 24px;
+      @include mobile {
+        padding: 4px 0;
+      }
+    }
+    @include mobile {
+      flex-direction: column;
+    }
+  }
+  &-privacy {
+    @include mobile {
+      flex-direction: column;
+    }
+  }
+}

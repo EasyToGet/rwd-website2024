@@ -1,0 +1,23 @@
+// helpers
+@import './helpers/variables.scss';
+@import './helpers/mixins.scss';
+@import './helpers/utils.scss';
+
+// base
+@import './base/reset.scss';
+@import './base/base.scss';
+@import './base/fontStyle.scss';
+
+// vendors
+@import './vendors/vendors.scss';
+
+// layout
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+// components
+@import './components/card.scss';
+
+// pages
+@import './pages/index.scss';
+@import './pages/faq';
